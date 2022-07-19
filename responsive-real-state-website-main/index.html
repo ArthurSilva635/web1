@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Projeto Goleiro - Nordeste</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          Projeto Goleiro <i class="bx bx-football"></i>
+        </a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt-2"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">
+                <i class="bx bx-buildings"></i>
+                <span>Projetos</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#value" class="nav__link">
+                <i class="bx bx-award"></i>
+                <span>Categorias</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-phone"></i>
+                <span>Contato</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!--=============== Theme change button==================-->
+
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+        <a
+          href="#"
+          class="button nav__button"
+          onclick="location.href='../formtest.html'"
+        >
+          login
+        </a>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">Escola de Goleiros</h1>
+            <p class="home__description">
+              A primeira do nordeste com mais 1000 alunos formados em 5 anos.
+            </p>
+
+            <button class="button">Conheça</button>
+
+            <div class="home__value">
+              <div>
+                <h1 class="home__value-number">3000 <span>+</span></h1>
+                <span class="home__value-description">
+                  Alunos que ja fizeram <br />
+                  parte do projeto
+                </span>
+              </div>
+
+              <div>
+                <h1 class="home__value-number">2 Campos <span>+</span></h1>
+                <span class="home__value-description">
+                  1 Grama e 1 Society
+                </span>
+              </div>
+
+              <div>
+                <h1 class="home__value-number">1 <span>º</span></h1>
+                <span class="home__value-description">
+                  Escola de Goleiros <br />
+                  do Nordeste
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="home__images">
+            <div class="home__orbe"></div>
+
+            <div class="home__img">
+              <img src="assets/img/home.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== LOGOS ====================-->
+      <section class="logos section">
+        <div class="logos__container container grid">
+          <div class="logos__img">
+            <img src="assets/img/logo1.png" alt="" />
+          </div>
+          <div class="logos__img">
+            <img src="assets/img/logo2.png" alt="" />
+          </div>
+          <div class="logos__img">
+            <img src="assets/img/logo3.png" alt="" />
+          </div>
+          <div class="logos__img">
+            <img src="assets/img/logo4.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR CARD PROJETOS ====================-->
+      <section class="popular section" id="popular">
+        <div class="container">
+          <span class="section__subtitle">Conhecimento</span>
+          <h2 class="section__title">Projetos<span>.</span></h2>
+
+          <div class="popular__container swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular1.jpg"
+                  alt=""
+                  class="popular__img"
+                />
+
+                <div class="popular__data">
+                  <h3 class="popular__title">Projeto psicologia</h3>
+                  <p class="popular__description">
+                    Além dos trabalhos desenvolvidos dentro de campo,
+                    acreditamos que a evolução e resultados positivos para
+                    nossos alunos se faz com dinâmicas em grupos e indivuais
+                    relacionadas a psicologia do esporte.
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular2.jpg"
+                  alt=""
+                  class="popular__img"
+                />
+
+                <div class="popular__data">
+                  <h3 class="popular__title">Projeto palestra</h3>
+                  <p class="popular__description">
+                    Acreditamos que exemplos positivos agregam na formação de
+                    nossos alunos, por isso ao longo do período de treinamento
+                    recebemos visitas de profissionais de diferentes áreas.
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular3.png"
+                  alt=""
+                  class="popular__img"
+                />
+
+                <div class="popular__data">
+                  <h3 class="popular__title">Projeto Core</h3>
+                  <p class="popular__description">
+                    Sabemos a importância de nossos alunos estarem bem
+                    físicamente durante os treinamentos, por isso desenvolvemos
+                    de forma programada e planejada para cada tipo de faixa
+                    etaria, treinamento de CORE e sessões de ALONGAMGENTO.
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img
+                  src="assets/img/popular4.png"
+                  alt=""
+                  class="popular__img"
+                />
+
+                <div class="popular__data">
+                  <h3 class="popular__title">Projeto Leitura</h3>
+                  <p class="popular__description">
+                    Além do esporte acreditamos no poder da educação, sendo
+                    assim desenvolvemos com nossos alunos o PROJETO LEITURA,
+                    onde temos parte do tempo do treinamento em um dia
+                    específico destinado a escolher um livro para leitura.
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-button-next">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="bx bx-chevron-left"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Categorias ====================-->
+      <section class="value section" id="value">
+        <div class="value__container container grid">
+          <div class="value__images">
+            <div class="value__orbe"></div>
+
+            <div class="value__img">
+              <img src="assets/img/value.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="value__content">
+            <div class="value__data">
+              <span class="section__subtitle"></span>
+              <h2 class="section__title">
+                Treinamento específico para goleiros<span>.</span>
+              </h2>
+              <p class="value__description">
+                Temos a turma mais indicada para você
+              </p>
+            </div>
+
+            <div class="value__accordion">
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-check-square value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">INICIANTES</h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Treinamento específico de coordenação motora com os
+                    fundamentos básicos da posição.
+                  </p>
+                </div>
+              </div>
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-check-square value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">INTERMEDIÁRIO</h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Treinamento englobando agilidade, aperfeiçoamento dos
+                    fundamentos técnicos desenvolvidos no nível anterior e
+                    inserção a algumas situações de jogo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-check-square value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">AVANÇADO</h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Inserção de treinamento de força e condicionamento físico
+                    específico, manutenção dos fundamentos técnicos adquiridos
+                    nos estágios anteriores. Foco mais amplo a exercícios
+                    situacionais, inserindo o jogo dentro do treinamento.
+                  </p>
+                </div>
+              </div>
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="bx bxs-check-square value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    TURMA EXCLUSIVA DE ADULTOS
+                  </h3>
+                  <div class="value__accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Desenvolvemos uma turma somente com goleiros adultos, onde
+                    são divididos dentro dela mesmo todos os estágios
+                    mencionados acima, contando com um professor exclusivo
+                    somente para os adultos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.923774515309!2d-35.205551899999996!3d-5.8663403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff5a99ff812b%3A0xcd561e2211a4d6a1!2sCampo%20Z%C3%A9%20Maia%20(lei%20mun.%206768%2F18).%20Jiqui!5e0!3m2!1spt-BR!2sbr!4v1654447863171!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="auto"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="contact-form">
+            <h1>Contato</h1>
+            <form>
+              <input type="text" placeholder="Name" class="contact-form-txt" />
+              <input
+                type="text"
+                placeholder="E-mail"
+                class="contact-form-txt"
+              />
+              <textarea
+                placeholder="Message"
+                class="contact-form-txtarea"
+              ></textarea>
+              <input type="submit" name="Submit" class="contact-form-btn" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SUBSCRIBE ====================-->
+      <section class="subscribe section">
+        <div class="subscribe__container container">
+          <h1 class="subscribe__title">Sua colaboração é Importante</h1>
+          <p class="subscribe__description">
+            Levamos a diante para nossa comunidade o lema “JUNTOS SOMOS MAIS
+            FORTES” e realmente isso acontece, somos a 1° Escola de Goleiros do
+            Brasil, referência para outros tantos, porque temos seriedade em
+            trabalhar ao lado de pessoas e empresas que acreditam no poder do
+            esporte e na educação.
+          </p>
+          <a href="#" class="button subscribe__button"> Leia Mais </a>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <h3 class="footer__title">Siga-nos nas redes sociais:</h3>
+
+          <ul class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook-circle"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-youtube"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy">
+          &#169; The King Arthur <i class="bx bxs-crown"></i>. All rigths
+          reserved
+        </span>
+
+        <div class="footer__privacy">
+          <a href="">Terms & Agreements</a>
+          <a href="">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-chevrons-up"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
